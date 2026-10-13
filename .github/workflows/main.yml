@@ -87,7 +87,4 @@ jobs:
             # Show running containers
             docker compose ps
 
-            # Logout from Docker Hub
-            docker logout
-
             echo "Deployment completed successfully!"
